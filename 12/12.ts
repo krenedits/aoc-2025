@@ -2,7 +2,7 @@ import { getData, Matrix } from "../common";
 
 // fix present size
 const PRESENT_SIZE = 3;
-const rawData = getData('example.txt').split('\n\n');
+const rawData = getData('input.txt').split('\n\n');
 const rawPresents = rawData.slice(0, -1);
 const rawRegions = rawData.slice(-1)[0].split('\n');
 
